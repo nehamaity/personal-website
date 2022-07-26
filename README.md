@@ -1,3 +1,3 @@
 # personal-website
 
-View site here: nebulascode.com
+View site here: https://nebulascode.com
