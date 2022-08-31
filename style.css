@@ -82,7 +82,7 @@
   .second{
     background-image: url("https://community.codenewbie.org/images/o8AL0r92VxLeT5HR_LIdTsEb0VbJTZVT3cXUODw5maQ/s:1000:420/mb:500000/ar:1/aHR0cHM6Ly9jb21t/dW5pdHkuY29kZW5l/d2JpZS5vcmcvcmVt/b3RlaW1hZ2VzL2kv/eDJyZDV6b2Rrdmhm/ZjkwcmV3bW8uanBn");
   }
-  :root {
+ :root {
     --variable-name: value;
   }
   selector {
@@ -449,6 +449,7 @@
 
   @media screen and (max-width: 420px) {
     .more-about {
+      height: 600px;
       width: 18.3rem;
     }    
     .project-container {
