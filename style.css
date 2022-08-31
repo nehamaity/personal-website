@@ -195,26 +195,10 @@
     
   }
   
-  .bio {
-    
-    width: 25rem;
-    padding: 1rem 6rem;
-    border-radius: 6px;
-    
-  }
-  
-  .bio h1 {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .bio p {
-    line-height: var(--line-height);
-    padding: 0.3rem 0;
-  }
   .more-about {
     text-align: left;
     align-content: center;
-    height: 400px;
+    height: 500px;
     width: 800px;
     background-color: white;
     justify-content: center;
@@ -413,27 +397,33 @@
     }
 
     .hero {
-      margin-top: -4rem;
+      margin-top: 5rem;
       flex-direction: column;
       gap: 0;
+      max-height: 400px;
     }
   
     .hero img {
-          height: 37.5rem;
-          width: 30rem;
-      }
-  
-    .bio {
-      margin-top: -7rem;
-      width: 20.5rem;
+      display: block;
+      align-content: center;
+      justify-content: center;
+      height: 200px;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
     }
-
+  
+    
     .more-about {
-      margin-top: 2rem;
-      padding: 1rem 3.5rem;
+      height: 500px;
+      width: 20.5rem;
     }
   
     .more-about h2 {
+      text-align: center;
+    }
+
+    .more-about h3 {
       text-align: center;
     }
   
@@ -458,15 +448,9 @@
   }
 
   @media screen and (max-width: 420px) {
-    .hero img {
-      height: 37.5rem;
-      width: 23rem;
-    }
-  
-    .bio {
+    .more-about {
       width: 18.3rem;
-    }
-  
+    }    
     .project-container {
       width: 17.875rem;
     }
@@ -477,27 +461,7 @@
   } 
     
       
-  @media (max-width: 500px) {
-    h1 {
-      font-size: 50px;
-      margin-top: 20px;
-      line-height: 40px;
-    }
-    h2 {
-      font-size: 20px;
-      margin: 20px 0 30px 0;
-    }
-    div {
-      margin: 30px 12px 0 12px;
-    }
-    p {
-      font-size: 11px;
-      line-height: 20px;
-    }
-    small {
-      font-size: 16px;
-    }
-  }
+ 
   
 
 

@@ -1,4 +1,4 @@
-$('div').on('click', function() {
+/*$('div').on('click', function() {
     $(this).toggleClass('show-description');
   });
 // scroll to top functionality
@@ -10,7 +10,7 @@ scrollUp.addEventListener("click", () => {
     left: 0,
     behavior: "smooth",
   });
-});
+});*/
 
 // Nav hamburgerburger selections
 
